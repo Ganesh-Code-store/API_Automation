@@ -1,4 +1,4 @@
-import org.json.JSONObject;
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -33,7 +33,7 @@ public class POSTCall {
 		Assert.assertEquals(statuscode, 201);
 		
 		System.out.println("Response----->");
-		System.out.println(res.asPrettyString());
+		System.out.println(res.asString());
 		
 		
 		System.out.println("Status code :"+statuscode);

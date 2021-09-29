@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POSTCall">
+      <class name="return_response_type">
         <methods>
-          <include name="postCall"/>
+          <include name="resTest"/>
         </methods>
-      </class> <!-- POSTCall -->
+      </class> <!-- return_response_type -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
