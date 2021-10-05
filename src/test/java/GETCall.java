@@ -22,7 +22,7 @@ public class GETCall {
 		
 		int statuscode=res.statusCode();
 		
-		Assert.assertEquals(statuscode, 201);
+		Assert.assertEquals(statuscode, 200);
 		
 		System.out.println("Status code :"+res.statusCode());
 		
